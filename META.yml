@@ -39,4 +39,4 @@ resources:
   homepage: https://metacpan.org/module/Business::GoCardless
   license: http://dev.perl.org/licenses/
   repository: https://github.com/leejo/business-gocardless
-version: '0.04'
+version: '0.05'
