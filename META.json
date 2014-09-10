@@ -4,7 +4,7 @@
       "Lee Johnson <leejo@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.140640",
+   "generated_by" : "ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.142060",
    "license" : [
       "perl_5"
    ],
@@ -28,7 +28,7 @@
             "Test::Exception" : "0.32",
             "Test::MockObject" : "1.20140408",
             "Test::Most" : "0.31",
-            "TryCatch" : "1.003002"
+            "Try::Tiny" : "0.22"
          }
       },
       "configure" : {
@@ -64,5 +64,5 @@
          "url" : "https://github.com/leejo/business-gocardless"
       }
    },
-   "version" : "0.05"
+   "version" : "0.06"
 }
