@@ -27,7 +27,6 @@ use Business::GoCardless::Exception;
 =cut
 
 has [ qw/
-	confirm_webhook
     resource_type
     action
     _payload

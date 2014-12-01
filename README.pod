@@ -5,9 +5,13 @@ package Business::GoCardless;
 Business::GoCardless - Perl library for interacting with the GoCardless API
 (https://gocardless.com)
 
+=for html
+<a href='https://travis-ci.org/leejo/business-gocardless?branch=master'><img src='https://travis-ci.org/leejo/business-gocardless.svg?branch=master' alt='Build Status' /></a>
+<a href='https://coveralls.io/r/leejo/business-gocardless?branch=master'><img src='https://coveralls.io/repos/leejo/business-gocardless/badge.png?branch=master' alt='Coverage Status' /></a>
+
 =head1 VERSION
 
-0.09
+0.10
 
 =head1 DESCRIPTION
 
@@ -107,7 +111,7 @@ appropriate error catching code (TryCatch in the below example):
             }
         }
     }
-    catch ( Business::GoCardless::Exception ) {
+    catch ( Business::GoCardless::Exception $e ) {
         # error specific to Business::GoCardless
         ...
         say $e->message;  # error message
